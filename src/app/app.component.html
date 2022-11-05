@@ -1,0 +1,28 @@
+<hello name="{{ name }}"></hello>
+
+<ng-container *ngIf="firstArgument.length > 0">
+  <h4>User id is 1</h4>
+  <ul *ngFor="let f of firstArgument">
+    {{
+      f.email
+    }}
+  </ul>
+</ng-container>
+
+<ng-container *ngIf="secondArgument.length > 0">
+  <h4>User id is 3</h4>
+  <ul *ngFor="let s of secondArgument">
+    {{
+      s.email
+    }}
+  </ul>
+</ng-container>
+
+<ng-container *ngIf="thirdArgument.length > 0">
+  <h4>User id is 10</h4>
+  <ul *ngFor="let t of thirdArgument">
+    {{
+      t.email
+    }}
+  </ul>
+</ng-container>
