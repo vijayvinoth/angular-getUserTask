@@ -12,5 +12,5 @@ export class AppService {
   public getUser(Id) {
         return this.http.get(this.URL,Id);
   }
-
+ //afse
 }
